@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potofolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project h2 {
+            margin-top: 10px;
+        }
+
+        .project p {
+            margin-top: 20px;
+        }
+
+        .project button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Potofolio</h1>
+    </header>
+
+    <main>
+        <div class="projects">
+            <div class="project">
+                <img src="https://appsdeveloped.com/wp-content/uploads/2022/02/what-is-app-development-780x470.jpg" alt="Project 1">
+                <h2>WEb development</h2>
+                <p>Web development is the creation and maintenance of websites1. It involves aspects such as web design, web publishing, web programming, and database management2</p>
+                <button>Visit</button>
+            </div>
+
+            <div class="project">
+            <img src="https://th.bing.com/th/id/OIP.apiGjkHhW8FIby4pG4lqJQHaEJ?rs=1&pid=ImgDetMain" alt="Project 2">
+                <h2>Ethical Hacking</h2>
+                <p>Hacking ethics can refer to two different concepts: the hacker ethic and ethical hacking12. The hacker ethic is a philosophy and set of moral values that is common within hacker culture and advocates for sharing information and data with others1</p>
+                <button>Visit</button>
+            </div>
+
+            <div class="project">
+                <img src="https://th.bing.com/th?id=OIP.0lUQZ_nAWqyKceiBHrMy_AHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2r" alt="Project 3">
+                <h2>App development</h2>
+                <p>App development is the process of creating an application that performs specific functions. It’s carried out by software developers and relies on a variety of tools and approaches. Read on for a deeper explanation of what is app development and the main steps involved.</p>
+                <button>Visit</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
