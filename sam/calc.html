@@ -3,12 +3,19 @@
 <head>
     <title>Calculator</title>
 <style>
+body {
+ background-image: url('imagesam.jpg');
+ background-color:grey;
+ background-repeat: no-repeat;
+ background: size 200px;
+ background-position: center;
+}
 .calculator {
     width: 200px;
     margin: 0 auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 16px;
+    border: 10px solid #ccc;
+    padding: 100px;
+    font-size: 20px;
 }
 .calculator input {
     width: 100%;
@@ -21,8 +28,8 @@
 </style>
 </head>
 <body>
-
 <div class="calculator">
+    <p textarea="center">Calculator</p>
  <input type="text" id="display" readonly>
   
  <button onclick="appendNumber('7')">7</button>
